@@ -1,0 +1,54 @@
+body {
+    font-family: 'Yantramanav', sans-serif;
+    background-color: gainsboro;
+}
+
+h1.normal {
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 20px;
+}
+/* Paragraph*/
+
+.paragraph {
+   padding: 15px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 50px;   
+}
+
+
+.section {
+    padding: 20px 180px 20px 180px;
+    background-color: white;
+    border-radius: 50px;
+
+}
+
+/*images*/
+
+img {
+    
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+
+.copyright {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+@media only screen and (min-width: 120px) and (max-width: 1500px ) {
+    
+    img {
+    
+        width: 45%;    
+    }
+    
+    
+}
+
